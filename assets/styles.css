@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Mali&display=swap);
 
 
-
+/* jumbotron */
 .jumbotron{
     border-radius: 0px;
 }
@@ -16,6 +16,7 @@
     background-size: cover;
 }
 
+/* texte */
 body {
 	text-align: center;
 	font-family: 'Mali', 'curcive';
@@ -36,3 +37,25 @@ h4 {
 
 }
 
+
+/* Footer */
+section {
+    padding: 60px 0;
+}
+
+#footer {
+    background: #fc952e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
