@@ -11,11 +11,18 @@ let lsgwords = [
     ["B","A","R","B","A","P","A","P","A"], //barbapapa
     ["C","A","N","D","I"], //candy
     ["G","O","L","D","O","R","K"], //goldorak
-    ["C","O","S","M","O","c","A","T","S"], //cosmocats
+    ["C","O","S","M","O","c","A","T","S"], // cosmocats
     ["H","E","I","D","i"], //heidi
-    ["C","O","S","M","O","c","A","T","S"], //cosmocats
     ["S","C","O","U","B","I","D","O","U","B","I","D","O","U"], //scoubidoubidou
     ["B","É","C","É","B","É","G","É"], //becébégé
+    ["L","A","M","U"], // lamu
+    ["A","S","T","R","O"], // astro
+    ["G","I","G","I"], // gigi
+    ["R","A","N","M","A","1","/","2"], // ranma1/2
+    ["B","A","T","M","A","N"], // batman
+    ["D","O","U","G"], // doug
+    ["G","A","R","G","O","Y","L","E","S"], // gargoyles
+    ["A","L","A","D","D","I","N"], // aladin
     ]
 
     let random = Math.floor((Math.random()*(lsgwords.length-1))); 
