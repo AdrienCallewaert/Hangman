@@ -79,7 +79,7 @@ let lsgwords = [
         }
         
 // 5 fautes max
-        if(error === 6){
+        if(error === 5){
             window.alert("Raté ... Tu va faire quoi ?!");
         }
     }
