@@ -3,59 +3,59 @@
 @import url(https://fonts.googleapis.com/css2?family=Mali&display=swap);
 
 
-/* jumbotron */
-.jumbotron{
-    border-radius: 0px;
-}
-.fond{
-    background-image: url("https://nsa40.casimages.com/img/2021/02/09/210209105739500191.jpg");
-    height: 50rem;
-    width: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
-/* texte */
+html {
+    height: 100%;
+  }
+ /* https://nsa40.casimages.com/img/2021/02/10/210210105113169875.jpg */
+ /* https://nsa40.casimages.com/img/2021/02/09/210209105739500191.jpg */
+  .bg { 
+/* le fond */
+    background-image: url("https://nsa40.casimages.com/img/2021/02/09/210209105739500191.jpg");
+  
+/* Full height */
+    height: 100%; 
+  
+/* centre */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
 body {
+    height: 100%;
 	text-align: center;
 	font-family: 'Mali', 'curcive';
 }
 
+
+/* texte */
 #ratefield {
 	font-family: 'Sedgwick Ave', 'cursive';
-	font-size: 2.0em;
+    font-size: 2.0em;
+
 }
 
 h1 {
 	font-family: 'Sedgwick Ave', 'cursive';
-	font-size: 10.0em;
 }
 
 h4 {
 	font-family: 'Mali', 'curcive';
-
 }
 
 
 /* Footer */
+
 section {
-    padding: 60px 0;
+    padding: 2em;
 }
 
 #footer {
     background: #fc952e !important;
 }
-#footer h5{
-	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
-    color:#ffffff;
-}
+
 #footer a {
     color: #ffffff;
-    text-decoration: none !important;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
 }

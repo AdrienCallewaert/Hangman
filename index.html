@@ -14,50 +14,55 @@
 </head>
 <body>
 
-<!-- Jumbotron strat  -->
-  <div class="jumbotron fond p-5 text-center">
-    <div class="container h-100">
-      <div class="row align-items-center h-100">
-        <div class="col-9 mx-auto">
-          <h1><strong>Le retro pendu</strong></h1>
-            <h4>Dessins animés 80' & 90'</h4>
-          <p id="ratefield"></p>
+<!-- card (masonery) start-->
+  <div class="bg">
+    <div class="row h-100 mx-auto align-items-center">
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-5 col-xl-4 mx-auto">
+                <h1 class="display-3"><strong>Le retro pendu</strong></h1>
+                <h4 class="display-7"><strong>Dessins animés 80' & 90'</strong></h4><br>
 
-<!-- Hangman strat  -->
-          <form name="rateformular">
-          
-          <input name="selectletter" type="text" size="1" maxlength="1">
-               <!-- <input name="enterselect"class="btn btn-success" value="Enter" onClick="veriflettre()">    --> 
-               <!--  <button type="enterselect" onClick="veriflettre()" class="btn btn-success">Enter</button>    --> 
-               <input name="enterselect" class="btn btn-success" type="button" onClick="veriflettre()" value="Enter">
-        
-          <p id="enterletter">Mauvaises lettres (max.5): </p>
-           <!--   <input name="refresh" class="btn btn-secondary" value="La p'tite soeur?" onClick="location.reload()">    -->
-           <!-- <button type="refresh" onClick="location.reload()" class="btn btn-danger mb-2">La p'tite soeur?</button>   -->
-          <input name="refresh" class="btn btn-danger" type="button" onClick="location.reload()" value="La p'tite soeur?">
-          </form>
-<!-- Hangman end -->
+                    <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 4531px;">
+                        <div class="card bg-light text-darck text-center p-1">
+                          <figure class="mb-0">
+                            <blockquote class="blockquote">
+                                <p id="ratefield"></p>
+                                <form name="rateformular">
+                                
+                                <input name="selectletter" type="text" size="1" maxlength="1">
+                                     <input name="enterselect" class="btn btn-success" type="button" onClick="veriflettre()" value="Enter">
+                              
+                                <p id="enterletter">Mauvaises lettres (max.5): </p>
+                                <input name="refresh" class="btn btn-danger" type="button" onClick="location.reload()" value="La p'tite soeur?">
 
-        </div>
-      </div>
-    </div>
+                                </form>
+                            </blockquote>
+                          </figure>
+                        </div>
+                    </div>
+            </div>
+     </div>
   </div>
-<!-- Jumbotron end  -->
+<!-- card (masonery) end-->
 
-<!-- Footer start -->
+<!-- footer star -->
 <section id="footer">
   <div class="text-center text-white">
     <p><u><a href="https://becode.org/fr//"> PROJET "HANGMAN" BECODE  </a></u> : Mon retro pendu [Dessins animés 80' et 90'] </p>
     <p class="h6">© une belle idée (enfin je l'espère) d'Adrien Callewaert.</p>
-    <hr>
+
   </div>
 </section>
-<!-- ./Footer end -->
+<!-- footer end -->
 
-<!-- Bootstrap JS start-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<!-- Bootstrap JS end-->
+<!-- plungin masonery JS start-->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
+    </script>
+<!-- plungin masonery JS end-->
+
+<!-- Bootstrap JS start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+<!-- Bootstrap JS end -->
 </body>
 </html>
-
-
