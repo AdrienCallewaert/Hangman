@@ -11,7 +11,6 @@ Challenge_Hangman **consolidation**
 
 ## La mission
 
-Résultats de traduction
 Vous devez créer une version du site Web du jeu de mots [pandu/hangman](https://en.wikipedia.org/wiki/Hangman_(game)). 
 Pour cela essayez de penser la * structure *, le "* backend *" (fonctionnalité) et le * frontend *
 (design) de votre projet avant de commencer le codage. 
@@ -20,10 +19,25 @@ Pour cela essayez de penser la * structure *, le "* backend *" (fonctionnalité)
 
 ## Etape 
 
-- Front: **recherche source et création source pour le design**
+- Front: **recherche sources et création source pour le design**
 - Structure: **Précison de fonctionnalité envisagé et listing**
-- Fonctionnalité: **Etude des fonctionnalité lié à la structure**
-- Construction: **mise en place des différentes étapes afin d'ontenir le résultat demandé**
-- Finalisation: **résolution des différents problème et obtimisation du code**
+- Fonctionnalité: **Étude des fonctionnalités lié à la structure**
+- Construction: **mise en place des différentes étapes afin d'obtenir le résultat demandé**
+- Finalisation: **résolution des différents problèmes et optimisation du code**
 
-Suite...
+
+
+## En pratique
+
+Nombreux problème d'affichage.
+Réglé en partie en date du 10/02/21
+
+Problème d'exécution du script sous mobile.
+Le stop en alerte ne s'exécute pas, le joueur peut donc jouer sans limites.
+Non résolu en date du 10/02/21
+
+Taille d'affiche mobile OK pour les bloque, le fond lui n'est pas assez dézoomer.
+Non résolu en date du 10/02/21
+
+
+suite...
