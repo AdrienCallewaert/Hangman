@@ -7,9 +7,9 @@ Challenge_Hangman **consolidation**
 - Deadline: **12/02/2021, 10:00 am**
 - HTML, CSS et JavaScript
 
+## Le lien [Retro Hangman](https://adriencallewaert.github.io/Hangman/)
 
-
-## La mission
+## La mission 
 
 Vous devez créer une version du site Web du jeu de mots [pandu/hangman](https://en.wikipedia.org/wiki/Hangman_(game)). 
 Pour cela essayez de penser la * structure *, le "* backend *" (fonctionnalité) et le * frontend *
